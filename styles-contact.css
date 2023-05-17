@@ -1,0 +1,72 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #50A161;
+    background-image: url(Images/1-principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box img {
+    max-height: 50px;
+    max-width: 100%;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+header {
+    background-color: #852C24;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    line-height: 37px;
+}
+
+nav a {
+    color: #6A93AA;
+    margin-right: 30px;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.5s color;
+}
+
+nav a:hover {
+    color: #40804D;
+    text-decoration: underline overline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: #2C5E7C;
+    text-align: center;
+}
+
+footer img {
+    max-height: 28px;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,122 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #553344;
+    background-image: url(Images/2-secundaria.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box img {
+    max-height: 50px;
+    max-width: 100%;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+header {
+    background-color: #BBFFFF;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    line-height: 37px;
+}
+
+nav a {
+    color: #AA66AA;
+    margin-right: 30px;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.5s color;
+}
+
+nav a:hover {
+    color: #E500E5;
+    text-decoration: underline overline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 60px 0 0 120px;
+}
+
+form label, form legend {
+    display: block;
+    margin: 0 0 7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-bydefect {
+    display: block;
+    width: 40%;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+.message-box {
+    margin: 40px 0 10px;
+}
+
+#myFile {
+    margin: 0 0 20px;
+}
+
+.send-button {
+    width: 17%;
+    padding: 10px 0;
+    background: #AA66AA;
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background: #553355;
+    transform: scale(1.1) rotate(360deg);
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: #AAAACC;
+    text-align: center;
+}
+
+footer img {
+    max-height: 28px;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
